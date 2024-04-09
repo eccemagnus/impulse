@@ -1,0 +1,45 @@
+#main{ justify-content: center;
+}
+
+/*The headline and paragraphs can be changed using the inline, internal and external CSS*/
+
+h1, h2, p{ text-align: center;
+padding: 30px;
+background-color: black;
+opacity: 1;
+}
+/* most of this code for this css was derived from https://reintech.io/blog/creating-responsive-event-listing-page-css */
+.nav_content{display: flex;
+    flex-direction: column;
+text-align: center;
+}
+
+.event {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.event-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ccc;
+    border: 1px solid #ccc;
+  }
+
+.event-description {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+ 
+  .event-date {
+    font-size: 16px;
+    color: #999;
+    border: 1px solid #ccc;
+  }
+
+.w3-third-2{padding-left: 400px;
+}
+.w3-third-3{padding-left: 800px;}
+
